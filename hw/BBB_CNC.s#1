@@ -9291,12 +9291,10 @@ Sternpunkt 4 pol.
 <plain>
 <text x="180.34" y="93.98" size="1.778" layer="97">Status LED</text>
 <text x="205.74" y="93.98" size="1.778" layer="97">Power LED</text>
-<text x="162.56" y="12.7" size="2.54" layer="97">Beaglebone Black V1
+<text x="162.56" y="12.7" size="2.54" layer="97">Beaglebone Black
 CNC Cape
 Derived from CRAMPS V2.1</text>
 <text x="66.04" y="167.64" size="3.81" layer="97">Beaglebone Black</text>
-<text x="167.64" y="5.08" size="2.54" layer="97">Armin Schlegel
-04.07.2014</text>
 </plain>
 <instances>
 <instance part="BBBLACK" gate="G$1" x="96.52" y="93.98"/>
@@ -9698,11 +9696,9 @@ have an off-board ESTOP switch</text>
 <text x="144.78" y="101.6" size="3.81" layer="97">ESTOP</text>
 <text x="142.24" y="144.78" size="2.54" layer="97">Machine Power
 Status LED</text>
-<text x="162.56" y="12.7" size="2.54" layer="97">Beaglebone Black V1
+<text x="162.56" y="12.7" size="2.54" layer="97">Beaglebone Black
 CNC Cape
 Derived from CRAMPS V2.1</text>
-<text x="167.64" y="5.08" size="2.54" layer="97">Armin Schlegel
-04.07.2014</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
@@ -9891,11 +9887,9 @@ Derived from CRAMPS V2.1</text>
 <text x="50.8" y="170.18" size="2.54" layer="97">+3V3 -&gt; +5V Transition</text>
 <text x="50.8" y="30.48" size="2.54" layer="97">74HCT125 has 25mA per output
 That is enough for optocouplers on the TB6560 Board </text>
-<text x="162.56" y="12.7" size="2.54" layer="97">Beaglebone Black V1
+<text x="162.56" y="12.7" size="2.54" layer="97">Beaglebone Black
 CNC Cape
 Derived from CRAMPS V2.1</text>
-<text x="167.64" y="5.08" size="2.54" layer="97">Armin Schlegel
-04.07.2014</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
@@ -10186,13 +10180,11 @@ Derived from CRAMPS V2.1</text>
 <text x="180.34" y="76.2" size="2.54" layer="97">Z Axis Min, Max Limit Switches</text>
 <text x="53.34" y="33.02" size="2.54" layer="97">Auxillary Output
 e.g. Spindle Control</text>
-<text x="162.56" y="12.7" size="2.54" layer="97">Beaglebone Black V1
+<text x="162.56" y="12.7" size="2.54" layer="97">Beaglebone Black
 CNC Cape
 Derived from CRAMPS V2.1</text>
 <text x="180.34" y="154.94" size="2.54" layer="97">For limit switches use switches 
 that are normally closed</text>
-<text x="167.64" y="5.08" size="2.54" layer="97">Armin Schlegel
-04.07.2014</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
