@@ -130,11 +130,11 @@
 <library name="adafruit">
 <packages>
 <package name="BEAGLEBONE_SHIELD">
-<wire x1="54.61" y1="73.66" x2="54.61" y2="14.605" width="0.127" layer="51"/>
-<wire x1="54.61" y1="14.605" x2="54.61" y2="6.35" width="0.127" layer="51" style="shortdash"/>
-<wire x1="12.7" y1="86.36" x2="0" y2="73.66" width="0.127" layer="51" curve="90"/>
-<wire x1="54.61" y1="73.66" x2="41.91" y2="86.36" width="0.127" layer="51" curve="90"/>
-<wire x1="12.7" y1="86.36" x2="41.91" y2="86.36" width="0.127" layer="51"/>
+<wire x1="54.61" y1="73.66" x2="54.61" y2="14.605" width="0.127" layer="49"/>
+<wire x1="54.61" y1="14.605" x2="54.61" y2="6.35" width="0.127" layer="49" style="shortdash"/>
+<wire x1="12.7" y1="86.36" x2="0" y2="73.66" width="0.127" layer="49" curve="90"/>
+<wire x1="54.61" y1="73.66" x2="41.91" y2="86.36" width="0.127" layer="49" curve="90"/>
+<wire x1="12.7" y1="86.36" x2="41.91" y2="86.36" width="0.127" layer="49"/>
 <wire x1="5.08" y1="17.78" x2="5.715" y2="18.415" width="0.1524" layer="21"/>
 <wire x1="5.715" y1="18.415" x2="5.715" y2="19.685" width="0.1524" layer="21"/>
 <wire x1="5.715" y1="19.685" x2="5.08" y2="20.32" width="0.1524" layer="21"/>
@@ -459,16 +459,16 @@
 <wire x1="53.975" y1="74.295" x2="53.975" y2="75.565" width="0.1524" layer="21"/>
 <wire x1="53.975" y1="74.295" x2="53.34" y2="73.66" width="0.1524" layer="21"/>
 <wire x1="49.53" y1="76.2" x2="53.34" y2="76.2" width="0.1524" layer="21"/>
-<wire x1="0" y1="6.35" x2="6.35" y2="0" width="0.127" layer="51" style="shortdash" curve="90"/>
-<wire x1="0" y1="73.66" x2="0" y2="14.605" width="0.127" layer="51"/>
-<wire x1="48.26" y1="0" x2="54.61" y2="6.35" width="0.127" layer="51" style="shortdash" curve="90"/>
-<wire x1="6.35" y1="0" x2="48.26" y2="0" width="0.127" layer="51" style="shortdash"/>
-<wire x1="0" y1="14.605" x2="0" y2="6.35" width="0.127" layer="51" style="shortdash"/>
-<wire x1="0" y1="14.605" x2="12.7" y2="14.605" width="0.127" layer="51"/>
-<wire x1="41.91" y1="14.605" x2="54.61" y2="14.605" width="0.127" layer="51"/>
-<wire x1="18.415" y1="20.32" x2="36.195" y2="20.32" width="0.127" layer="51"/>
-<wire x1="18.415" y1="20.32" x2="12.7" y2="14.605" width="0.127" layer="51" curve="90"/>
-<wire x1="36.195" y1="20.32" x2="41.91" y2="14.605" width="0.127" layer="51" curve="-90"/>
+<wire x1="0" y1="6.35" x2="6.35" y2="0" width="0.127" layer="49" style="shortdash" curve="90"/>
+<wire x1="0" y1="73.66" x2="0" y2="14.605" width="0.127" layer="49"/>
+<wire x1="48.26" y1="0" x2="54.61" y2="6.35" width="0.127" layer="49" style="shortdash" curve="90"/>
+<wire x1="6.35" y1="0" x2="48.26" y2="0" width="0.127" layer="49" style="shortdash"/>
+<wire x1="0" y1="14.605" x2="0" y2="6.35" width="0.127" layer="49" style="shortdash"/>
+<wire x1="0" y1="14.605" x2="12.7" y2="14.605" width="0.127" layer="49"/>
+<wire x1="41.91" y1="14.605" x2="54.61" y2="14.605" width="0.127" layer="49"/>
+<wire x1="18.415" y1="20.32" x2="36.195" y2="20.32" width="0.127" layer="49"/>
+<wire x1="18.415" y1="20.32" x2="12.7" y2="14.605" width="0.127" layer="49" curve="90"/>
+<wire x1="36.195" y1="20.32" x2="41.91" y2="14.605" width="0.127" layer="49" curve="-90"/>
 <pad name="1" x="4.445" y="19.05" drill="1" shape="square" rot="R90"/>
 <pad name="2" x="1.905" y="19.05" drill="1" rot="R90"/>
 <pad name="3" x="4.445" y="21.59" drill="1" rot="R90"/>
@@ -8942,51 +8942,6 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="SchlegelAr_Master">
-<packages>
-<package name="SP4">
-<smd name="P$1" x="0.04" y="0" dx="0.1" dy="0.1" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="P$2" x="-0.04" y="0" dx="0.1" dy="0.1" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="P$3" x="0" y="-0.04" dx="0.1" dy="0.1" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="P$4" x="0" y="0.04" dx="0.1" dy="0.1" layer="1" stop="no" thermals="no" cream="no"/>
-</package>
-</packages>
-<symbols>
-<symbol name="SP4">
-<pin name="1" x="-2.54" y="0" visible="off" length="short"/>
-<pin name="2" x="2.54" y="0" visible="off" length="short" rot="R180"/>
-<circle x="0" y="0" radius="0.254" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-0.254" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="0.254" width="0.254" layer="94"/>
-<pin name="3" x="0" y="-2.54" visible="off" length="short" rot="R90"/>
-<pin name="4" x="0" y="2.54" visible="off" length="short" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SP4" prefix="SP">
-<description>&lt;b&gt;
-Sternpunkt 4 pol.
-
-&lt;/b&gt;&lt;br&gt;&lt;br&gt;last modified: Armin Schlegel, 28.04.2014  &lt;br&gt;&lt;br&gt;</description>
-<gates>
-<gate name="G$1" symbol="SP4" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SP4">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-<connect gate="G$1" pin="3" pad="P$3"/>
-<connect gate="G$1" pin="4" pad="P$4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="pinhead">
 <description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -9232,7 +9187,6 @@ Sternpunkt 4 pol.
 <part name="C2" library="rcl" deviceset="C-EU" device="C0603K" value="100n"/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="SP1" library="SchlegelAr_Master" deviceset="SP4" device=""/>
 <part name="FRAME3" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="T2" library="zetex" deviceset="NMOSSOT23" device="" value="2N7002K"/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X2" device=""/>
@@ -9291,12 +9245,12 @@ Sternpunkt 4 pol.
 <plain>
 <text x="180.34" y="93.98" size="1.778" layer="97">Status LED</text>
 <text x="205.74" y="93.98" size="1.778" layer="97">Power LED</text>
-<text x="162.56" y="12.7" size="2.54" layer="97">Beaglebone Black V1
+<text x="66.04" y="167.64" size="3.81" layer="97">Beaglebone Black</text>
+<text x="162.56" y="12.7" size="2.54" layer="97">Beaglebone Black V2
 CNC Cape
 Derived from CRAMPS V2.1</text>
-<text x="66.04" y="167.64" size="3.81" layer="97">Beaglebone Black</text>
 <text x="167.64" y="5.08" size="2.54" layer="97">Armin Schlegel
-04.07.2014</text>
+08.07.2014</text>
 </plain>
 <instances>
 <instance part="BBBLACK" gate="G$1" x="96.52" y="93.98"/>
@@ -9698,11 +9652,11 @@ have an off-board ESTOP switch</text>
 <text x="144.78" y="101.6" size="3.81" layer="97">ESTOP</text>
 <text x="142.24" y="144.78" size="2.54" layer="97">Machine Power
 Status LED</text>
-<text x="162.56" y="12.7" size="2.54" layer="97">Beaglebone Black V1
+<text x="162.56" y="12.7" size="2.54" layer="97">Beaglebone Black V2
 CNC Cape
 Derived from CRAMPS V2.1</text>
 <text x="167.64" y="5.08" size="2.54" layer="97">Armin Schlegel
-04.07.2014</text>
+08.07.2014</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
@@ -9891,11 +9845,11 @@ Derived from CRAMPS V2.1</text>
 <text x="50.8" y="170.18" size="2.54" layer="97">+3V3 -&gt; +5V Transition</text>
 <text x="50.8" y="30.48" size="2.54" layer="97">74HCT125 has 25mA per output
 That is enough for optocouplers on the TB6560 Board </text>
-<text x="162.56" y="12.7" size="2.54" layer="97">Beaglebone Black V1
+<text x="162.56" y="12.7" size="2.54" layer="97">Beaglebone Black V2
 CNC Cape
 Derived from CRAMPS V2.1</text>
 <text x="167.64" y="5.08" size="2.54" layer="97">Armin Schlegel
-04.07.2014</text>
+08.07.2014</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
@@ -9915,7 +9869,6 @@ Derived from CRAMPS V2.1</text>
 <instance part="C2" gate="G$1" x="127" y="58.42" rot="R180"/>
 <instance part="P+3" gate="1" x="134.62" y="73.66"/>
 <instance part="GND7" gate="1" x="134.62" y="43.18"/>
-<instance part="SP1" gate="G$1" x="160.02" y="154.94"/>
 <instance part="R9" gate="G$1" x="152.4" y="162.56" rot="R90"/>
 <instance part="P+4" gate="1" x="152.4" y="172.72"/>
 <instance part="R10" gate="G$1" x="157.48" y="73.66" rot="R90"/>
@@ -10008,15 +9961,15 @@ Derived from CRAMPS V2.1</text>
 <pinref part="IC1" gate="D" pin="O"/>
 </segment>
 </net>
-<net name="N$18" class="0">
+<net name="DO_!AXIS_EN_BUFF" class="0">
 <segment>
-<pinref part="SP1" gate="G$1" pin="1"/>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="147.32" y1="154.94" x2="152.4" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="154.94" x2="157.48" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="157.48" x2="152.4" y2="154.94" width="0.1524" layer="91"/>
 <junction x="152.4" y="154.94"/>
 <pinref part="IC2" gate="A" pin="O"/>
+<label x="157.48" y="154.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="DO_AUX1_BUFF" class="0">
@@ -10133,29 +10086,6 @@ Derived from CRAMPS V2.1</text>
 <pinref part="IC1" gate="B" pin="I"/>
 </segment>
 </net>
-<net name="DO_!X_EN_BUFF" class="0">
-<segment>
-<pinref part="SP1" gate="G$1" pin="4"/>
-<wire x1="160.02" y1="157.48" x2="160.02" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="160.02" x2="165.1" y2="160.02" width="0.1524" layer="91"/>
-<label x="165.1" y="160.02" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="DO_!Y_EN_BUFF" class="0">
-<segment>
-<pinref part="SP1" gate="G$1" pin="2"/>
-<wire x1="162.56" y1="154.94" x2="165.1" y2="154.94" width="0.1524" layer="91"/>
-<label x="165.1" y="154.94" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="DO_!Z_EN_BUFF" class="0">
-<segment>
-<pinref part="SP1" gate="G$1" pin="3"/>
-<wire x1="160.02" y1="152.4" x2="160.02" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="149.86" x2="165.1" y2="149.86" width="0.1524" layer="91"/>
-<label x="165.1" y="149.86" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="I_MACHINE_POWER" class="0">
 <segment>
 <pinref part="IC2" gate="C" pin="OE"/>
@@ -10186,13 +10116,13 @@ Derived from CRAMPS V2.1</text>
 <text x="180.34" y="76.2" size="2.54" layer="97">Z Axis Min, Max Limit Switches</text>
 <text x="53.34" y="33.02" size="2.54" layer="97">Auxillary Output
 e.g. Spindle Control</text>
-<text x="162.56" y="12.7" size="2.54" layer="97">Beaglebone Black V1
+<text x="162.56" y="12.7" size="2.54" layer="97">Beaglebone Black V2
 CNC Cape
 Derived from CRAMPS V2.1</text>
 <text x="180.34" y="154.94" size="2.54" layer="97">For limit switches use switches 
 that are normally closed</text>
 <text x="167.64" y="5.08" size="2.54" layer="97">Armin Schlegel
-04.07.2014</text>
+08.07.2014</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
@@ -10333,13 +10263,6 @@ that are normally closed</text>
 <pinref part="X4" gate="-1" pin="KL"/>
 </segment>
 </net>
-<net name="DO_!X_EN_BUFF" class="0">
-<segment>
-<label x="27.94" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="35.56" y1="73.66" x2="27.94" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="X5" gate="-1" pin="KL"/>
-</segment>
-</net>
 <net name="DO_Y_STEP_BUFF" class="0">
 <segment>
 <label x="27.94" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -10354,13 +10277,6 @@ that are normally closed</text>
 <wire x1="35.56" y1="109.22" x2="27.94" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DO_!Y_EN_BUFF" class="0">
-<segment>
-<label x="27.94" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="35.56" y1="68.58" x2="27.94" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="X5" gate="-3" pin="KL"/>
-</segment>
-</net>
 <net name="DO_Z_STEP_BUFF" class="0">
 <segment>
 <label x="27.94" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -10373,13 +10289,6 @@ that are normally closed</text>
 <label x="27.94" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="35.56" y1="104.14" x2="27.94" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="X4" gate="-5" pin="KL"/>
-</segment>
-</net>
-<net name="DO_!Z_EN_BUFF" class="0">
-<segment>
-<pinref part="X5" gate="-5" pin="KL"/>
-<wire x1="35.56" y1="63.5" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
-<label x="27.94" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DI_X_MIN" class="0">
@@ -10501,6 +10410,23 @@ that are normally closed</text>
 <pinref part="X1" gate="-1" pin="KL"/>
 <wire x1="35.56" y1="38.1" x2="33.02" y2="38.1" width="0.1524" layer="91"/>
 <label x="33.02" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="DO_!AXIS_EN_BUFF" class="0">
+<segment>
+<pinref part="X5" gate="-1" pin="KL"/>
+<wire x1="35.56" y1="73.66" x2="27.94" y2="73.66" width="0.1524" layer="91"/>
+<label x="27.94" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="X5" gate="-3" pin="KL"/>
+<wire x1="35.56" y1="68.58" x2="27.94" y2="68.58" width="0.1524" layer="91"/>
+<label x="27.94" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="X5" gate="-5" pin="KL"/>
+<wire x1="35.56" y1="63.5" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
+<label x="27.94" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
