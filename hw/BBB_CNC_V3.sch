@@ -9239,6 +9239,9 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <part name="JP8" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="R13" library="rcl" deviceset="R-EU_" device="R0603" value="4k7"/>
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
+<part name="JP9" library="pinhead" deviceset="PINHD-1X2" device=""/>
+<part name="GND12" library="supply1" deviceset="GND" device=""/>
+<part name="P+7" library="supply1" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9682,6 +9685,9 @@ Derived from CRAMPS V2.1</text>
 <instance part="+3V8" gate="G$1" x="119.38" y="114.3"/>
 <instance part="P+5" gate="1" x="127" y="165.1"/>
 <instance part="P+6" gate="1" x="137.16" y="165.1"/>
+<instance part="JP9" gate="G$1" x="43.18" y="147.32" rot="MR0"/>
+<instance part="GND12" gate="1" x="53.34" y="142.24"/>
+<instance part="P+7" gate="1" x="53.34" y="160.02"/>
 </instances>
 <busses>
 </busses>
@@ -9702,6 +9708,12 @@ Derived from CRAMPS V2.1</text>
 <pinref part="T4" gate="A" pin="S"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="93.98" y1="55.88" x2="93.98" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP9" gate="G$1" pin="2"/>
+<pinref part="GND12" gate="1" pin="GND"/>
+<wire x1="45.72" y1="147.32" x2="53.34" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="147.32" x2="53.34" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DO_MACHINE_POWER" class="0">
@@ -9836,6 +9848,12 @@ Derived from CRAMPS V2.1</text>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="137.16" y1="160.02" x2="137.16" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="P+6" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="JP9" gate="G$1" pin="1"/>
+<pinref part="P+7" gate="1" pin="+5V"/>
+<wire x1="45.72" y1="149.86" x2="53.34" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="149.86" x2="53.34" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
